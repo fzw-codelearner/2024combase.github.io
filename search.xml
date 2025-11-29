@@ -9,7 +9,7 @@
 <li><input disabled="" type="checkbox"> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/2024myblog.github.io/images/image.png"
+                     data-src="/2024combase.github.io/images/image.png"
                       alt="alt text"
                 ><ul>
 <li><input disabled="" type="checkbox"> 页面<strong>放大</strong></li>
@@ -23,7 +23,7 @@
 <li><input disabled="" type="checkbox"> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/2024myblog.github.io/images/image1.png"
+                     data-src="/2024combase.github.io/images/image1.png"
                       alt="alt text"
                 ></li>
 </ul>
@@ -32,7 +32,7 @@
 <li><input disabled="" type="checkbox"> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/2024myblog.github.io/images/image2.png"
+                     data-src="/2024combase.github.io/images/image2.png"
                       alt="alt text"
                 ><ul>
 <li><input disabled="" type="checkbox"> 可以跳转到<strong>标签集合</strong>页面，进而跳转到感兴趣的页面</li>
@@ -49,7 +49,7 @@
 <li><input disabled="" type="checkbox"> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/2024myblog.github.io/images/image3.png"
+                     data-src="/2024combase.github.io/images/image3.png"
                       alt="alt text"
                 ><ul>
 <li><input disabled="" type="checkbox"> 可以跳转到<strong>标签集合</strong>页面，进而跳转到感兴趣的页面</li>
@@ -63,7 +63,7 @@
 <li><input disabled="" type="checkbox"> <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/2024myblog.github.io/images/image4.png"
+                     data-src="/2024combase.github.io/images/image4.png"
                       alt="alt text"
                 ><ul>
 <li><input disabled="" type="checkbox"> 支持<strong>顺序、随机播放</strong></li>
@@ -84,188 +84,7 @@
   <entry>
     <title></title>
     <url>/2024combase.github.io/2025/11/29/text/</url>
-    <content><![CDATA[<ul>
-<li>数论<ul>
-<li>整除<ul>
-<li>基本性质</li>
-<li>算术基本定理$$a &#x3D; p_1^{r_1}p_2^{r_2}p_3^{r_3}…p_k^{r_k}$$<ul>
-<li>推论若$d|a$则：$$d &#x3D; p_1^{s_1}p_2^{s_2}p_3^{s_3}…p_k^{s_k}$$<br>且$$0\leq s_i\leq r_i,i&#x3D;1,2,…,k$$</li>
-</ul>
-</li>
-<li>欧几里得算法：若$a&#x3D;qb+r$则$gcd(a,b)&#x3D;gcd(b,r)$![[Pasted image 20251125203415.png]]<ul>
-<li>扩展欧几里得法：$s_0&#x3D;1,s_1&#x3D;0,t_0&#x3D;0,t_1&#x3D;1$,$$s_j&#x3D;s_{j-2}-q_{j-1}s_{j-1}$$$$t_j&#x3D;t_{j-2}-q_{j-1}t_{j-1}$$求n次即可</li>
-</ul>
-</li>
-<li>贝祖定理：$gcd(a,b) &#x3D; xa+yb$</li>
-</ul>
-</li>
-<li>同余<ul>
-<li>自反传递对称</li>
-<li>所有和a模m同余的整数沉稳给a模m的同余类</li>
-<li>基本运算：加减乘（除不行，除非除数和同余底互素）</li>
-<li>$d\geq1$时，$$a \equiv b \pmod{n} \iff da \equiv db \pmod{dn}$$</li>
-<li>$$a \equiv b \pmod{m} \implies a^k \equiv b^k \pmod{m}$$</li>
-</ul>
-</li>
-<li>模指数运算</li>
-<li>同余方程解法<ul>
-<li>一次同余方程，对于$ax \equiv b \pmod{m}$情况，求$\hat{a}a \equiv 1 \pmod{m}$即可 <ul>
-<li>扩展欧几里得法求模逆</li>
-</ul>
-</li>
-<li>多次同余方程<ul>
-<li>中国剩余定理![[Pasted image 20251125203944.png]]</li>
-<li>反向替代![[Pasted image 20251125204010.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>欧拉函数<ul>
-<li>$\phi(n)$ 表示1-n之间和n互素的整数个数<ul>
-<li>若为素数，则为n-1</li>
-<li>![[Pasted image 20251125204620.png]]</li>
-<li>![[Pasted image 20251125204654.png]]</li>
-</ul>
-</li>
-<li>欧拉定理<ul>
-<li>$a^{\phi(n)}\equiv 1 \pmod{n}$</li>
-<li>$m^{(p-1)(q-1)} \equiv 1 \pmod{pq}$ (其中p,q为素数)</li>
-</ul>
-</li>
-<li>费马小定理，若p为素数$a^p \equiv a \pmod{p}$</li>
-</ul>
-</li>
-<li>密码学<ul>
-<li>位移加密$f(p)&#x3D;(p+k)mod 26$<ul>
-<li>解密$p &#x3D; (c-k)mod26$</li>
-</ul>
-</li>
-<li>仿射加密$f(p) &#x3D; (ap+b)mod26$<ul>
-<li>$p\equiv \hat{a}(c-b)\pmod{26}$</li>
-</ul>
-</li>
-<li>换位密码（分组位移密码）</li>
-<li>RSA（公钥为n,e）私钥为d<ul>
-<li>$C&#x3D;M^emodn$ </li>
-<li>$M&#x3D;C^dmodn$ <ul>
-<li>其中d的求解等式为$$de\equiv 1\pmod{(p-1)(q-1)}$$其中pq&#x3D;n,p、q为素数</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>数字签名(就是自己按照RSA解密函数加密，别人按照公钥加密函数解密就行)</li>
-<li>DH交换协议<ul>
-<li>使用素数p，和p的一个原根a</li>
-<li>共享密钥为$(a^{k_1})^{k_2} mod p$</li>
-</ul>
-</li>
-<li>模余应用<ul>
-<li>散列表（哈希表）</li>
-<li>伪随机数![[Pasted image 20251125211236.png]]</li>
-<li>校验码<ul>
-<li>![[Pasted image 20251125211304.png]]</li>
-<li>![[Pasted image 20251125211318.png]]</li>
-<li>![[Pasted image 20251125211339.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>递推<ul>
-<li>常系数线性方程<ul>
-<li>![[Pasted image 20251126113918.png]]</li>
-<li>![[Pasted image 20251126113952.png]]</li>
-</ul>
-</li>
-<li>常系数非线性<ul>
-<li>转换相伴的齐次递推关系![[Pasted image 20251126114116.png]]</li>
-<li>![[Pasted image 20251126114140.png]]</li>
-<li>![[Pasted image 20251126114206.png]]</li>
-</ul>
-</li>
-<li>生成函数<ul>
-<li>定义<ul>
-<li>![[Pasted image 20251126114836.png]]![[Pasted image 20251126115008.png]]![[Pasted image 20251126145526.png]]![[Pasted image 20251126145704.png]]![[Pasted image 20251126145714.png]]</li>
-</ul>
-</li>
-<li>求解计数问题<ul>
-<li>![[Pasted image 20251126145821.png]]</li>
-</ul>
-</li>
-<li>证明恒等式<ul>
-<li>![[Pasted image 20251126150239.png]]</li>
-</ul>
-</li>
-<li>组合计数</li>
-<li>多重集选取<ul>
-<li>![[Pasted image 20251126150259.png]]</li>
-</ul>
-</li>
-<li>递推方程<ul>
-<li>![[Pasted image 20251126150110.png]]![[Pasted image 20251126150205.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>容斥原理<ul>
-<li>![[Pasted image 20251126150324.png]]![[Pasted image 20251126150333.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>排列组合<ul>
-<li>组合分析法<ul>
-<li>![[Pasted image 20251125213009.png]]</li>
-</ul>
-</li>
-<li>多项式系数恒等式<ul>
-<li>![[Pasted image 20251125213024.png]]</li>
-<li>![[Pasted image 20251125213033.png]]</li>
-<li>![[Pasted image 20251125213102.png]]</li>
-<li>![[Pasted image 20251125213134.png]]</li>
-</ul>
-</li>
-<li>无重复和可重复排列组合问题<ul>
-<li>![[Pasted image 20251125212524.png]]</li>
-<li>把物体放进盒子![[Pasted image 20251125212552.png]]</li>
-</ul>
-</li>
-<li>鸽巢原理解题<ul>
-<li>![[Pasted image 20251125211814.png]]</li>
-<li>![[Pasted image 20251125211834.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>证明<ul>
-<li>命题逻辑<ul>
-<li>![[Pasted image 20251126153730.png]]</li>
-<li>公式类型判断<ul>
-<li>重言式就是永真式</li>
-<li>![[Pasted image 20251126153924.png]]</li>
-<li>![[Pasted image 20251126153935.png]]</li>
-<li>![[Pasted image 20251126154007.png]]</li>
-<li>![[Pasted image 20251126154025.png]]</li>
-</ul>
-</li>
-<li>![[Pasted image 20251126160056.png]]</li>
-<li>![[Pasted image 20251126160105.png]]</li>
-<li>![[Pasted image 20251126160120.png]]</li>
-<li>![[Pasted image 20251126160132.png]]</li>
-<li>![[Pasted image 20251126160140.png]]</li>
-<li>![[Pasted image 20251126160148.png]]</li>
-<li>![[Pasted image 20251126160155.png]]</li>
-<li>![[Pasted image 20251126160203.png]]</li>
-<li>![[Pasted image 20251126160212.png]]</li>
-<li>![[Pasted image 20251126160220.png]]</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+    <content><![CDATA[<p>546</p>
 ]]></content>
   </entry>
 </search>
